@@ -36,3 +36,19 @@ hr{
     width: 75%;
     margin: auto;
 }
+
+.nut-1, .nut-2{
+    width: auto;
+    display: inline-block;
+}
+
+td{
+    width: 100px;
+}
+
+.nut-table{
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+}
+
