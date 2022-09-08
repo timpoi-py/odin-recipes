@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.recipe {
+    width: 50%;
+    margin: auto;
+}
+
+img{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+div{
+    margin: 20px 50px;
+}
