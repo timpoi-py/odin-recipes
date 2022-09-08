@@ -5,13 +5,34 @@
 
 .first {
     width: 100%;
-    height: 720px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: rgb(53, 53, 53);
+    color: azure;
 }
 
 .common {
-    font-size: 3rem;
+    font-size: 5rem;
 }
+
+.recipes{
+    width: 100%;
+    height: 720px;
+    background-color: antiquewhite;
+}
+
+.navbar{
+    height: 60px;
+    width: fit-content;
+}
+
+.nav-list {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+
+}
+
