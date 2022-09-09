@@ -6,6 +6,7 @@
 
 body {
     font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -16,13 +17,54 @@ body {
 
 .navbar .container {
     min-width: 800px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.navbar .container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    font-size: x-large;
+}
+
+.navbar .container .logo a:hover {
+    font-size: xx-large;
+}
+
+.navbar .container img {
+    height: 64px;
+
+}
 .nav-list {
     display: flex;
     margin: 0;
     list-style: none;
     padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-list li {
+    height: 100%;
+    display: flex;
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    margin: auto 10px;
+}
+
+.nav-list li a:hover {
+    color: rgb(221, 221, 221);
 }
 
 .sec-1 { 
