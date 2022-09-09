@@ -80,9 +80,24 @@ body {
     color: #fff;
 }
 
-.sec-1 .container h1 {
-    font-size: 3rem;
+.sec-1 .container .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
+.sec-1 .container h1 {
+    font-size: 5rem;
+}
+
+.sec-1 .container p {
+    margin-top: 20px;
+    font-size: 1.67rem;
+}
+.sec-1 .container img{
+    width: 60%;
+}
+
 
 .recipes{
     width: 100%;
